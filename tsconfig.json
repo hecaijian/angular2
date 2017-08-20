@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports":true,
+    "sourceMap":true,
+    "declaration":false,
+    "lib":["es2015","dom"],
+    "outDir":"./aot",
+    "typeRoots":["./node_modules/@types"]
+
+  },
+
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
